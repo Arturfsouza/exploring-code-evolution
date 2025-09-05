@@ -83,9 +83,9 @@ Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
 1. Repositório selecionado: https://github.com/mrdoob/three.js
 2. Gráfico selecionado:
-3. <img width="793" height="402" alt="image" src="https://github.com/user-attachments/assets/2bf6ebbc-124a-4264-83fa-d9e1451cb42b" />
+<img width="793" height="402" alt="image" src="https://github.com/user-attachments/assets/2bf6ebbc-124a-4264-83fa-d9e1451cb42b" />
 
-4. Explicação:
+3. Explicação:
 O gráfico “Classes” do repositório three.js mostra um alto crescimento no número de classes entre 2020 e 2022, saindo de uma base quase nula para algo em torno de 1.700. Esse salto costuma refletir novos recursos, materiais, geometrias, helpers, loaders e exemplos, entre outros, e uma consolidação do design orientado a objetos do projeto: funcionalidades que antes poderiam estar como funções utilitárias passam a ter APIs encapsuladas em classes.
 
 Em 2023 há uma leve retração, que faz sentido como consequência de refatorações e diminuições no código: remoção de duplicidades, unificação de implementações parecidas, extração de partes comuns, entre outros. Em projetos grandes como esse, é comum que depois de uma fase de forte crescimento venha um período de “arrumação da casa”, reduzindo a contagem de classes sem perder as funcionalidades.

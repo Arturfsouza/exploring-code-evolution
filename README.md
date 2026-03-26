@@ -81,10 +81,17 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: https://github.com/mrdoob/three.js
-2. Gráfico selecionado: <img width="793" height="402" alt="image" src="https://github.com/user-attachments/assets/2bf6ebbc-124a-4264-83fa-d9e1451cb42b" />
-3. Explicação: O gráfico “Classes” do repositório three.js mostra um alto crescimento no número de classes entre 2020 e 2022, saindo de uma base quase nula para algo em torno de 1.700. Esse salto costuma refletir novos recursos, materiais, geometrias, helpers, loaders e exemplos, entre outros, e uma consolidação do design orientado a objetos do projeto: funcionalidades que antes poderiam estar como funções utilitárias passam a ter APIs encapsuladas em classes.
+1. Repositório selecionado: [https://github.com/mrdoob/three.js](https://github.com/fastapi/fastapi)
+2. Gráfico selecionado: <img width="787" height="387" alt="image" src="https://github.com/user-attachments/assets/c905073f-135a-4ac8-89c0-ea1c5f3c28c1" />
 
-Em 2023 há uma leve retração, que faz sentido como consequência de refatorações e diminuições no código: remoção de duplicidades, unificação de implementações parecidas, extração de partes comuns, entre outros. Em projetos grandes como esse, é comum que depois de uma fase de forte crescimento venha um período de “arrumação da casa”, reduzindo a contagem de classes sem perder as funcionalidades.
+3. Explicação: O gráfico apresenta a evolução do uso de diferentes estruturas de dados (dicionários, listas, tuplas e conjuntos) ao longo do tempo no projeto FastAPI, entre os anos de 2021 e 2026.
 
-A partir de 2024 a curva retoma a alta e chega a cerca de 2.500 em 2025, sugerindo uma nova onda de funcionalidades (ex.: melhorias de renderização, novos loaders/formats, utilitários de XR/AR/VR, pós-processamento, exemplos e extensões) implementadas de forma modular. Do ponto de vista de boas práticas, é positiva: o uso de classes torna a API mais previsível e extensível, mas vale monitorar se o crescimento vem acompanhado de coerência arquitetural e de documentação atualizada, sinais de que o aumento representa evolução de qualidade e não apenas complexidade acidental.
+Observa-se que os dicionários (dictionary) possuem um crescimento significativo, principalmente entre 2023 e 2024. Isso é esperado, pois dicionários são amplamente utilizados em APIs para manipulação de dados em formato JSON, que é o principal formato de comunicação do FastAPI. Esse crescimento pode estar relacionado à adição de novas funcionalidades ou melhorias.
+
+As listas (list) também apresentam crescimento ao longo do tempo, porém de forma mais moderada. Isso indica que continuam sendo utilizadas, mas sem mudanças bruscas.
+
+Já as tuplas (tuple) e conjuntos (set) mantêm valores baixos e relativamente estáveis durante todo o período. Isso é coerente com boas práticas, já que essas estruturas costumam ser utilizadas em casos mais específicos e não como base principal de manipulação de dados em aplicações web.
+
+Entre 2024 e 2025, observa-se uma estabilização no crescimento das estruturas, seguida por uma leve queda em 2026, especialmente nos dicionários. Essa redução pode indicar refatorações no código, remoção de redundâncias ou otimizações na estrutura interna do projeto.
+
+De forma geral, o gráfico demonstra uma evolução saudável do código, com crescimento consistente seguido de estabilização, o que é característico de um projeto maduro.
